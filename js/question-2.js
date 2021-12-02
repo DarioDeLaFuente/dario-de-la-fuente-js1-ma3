@@ -44,8 +44,8 @@ async function getRawg() {
       resultConteiner.innerHTML += `
       <div class="game">
           <div class="name">${resultfacts[i].name}</div>
-          <div class="rating"> Rating: ${resultfacts[i].rating}</div>
-          <div class="tags"> Tags: ${resultfacts[i].tags.length}</div>
+          <div> Rating: ${resultfacts[i].rating}</div>
+          <div> Tags: ${resultfacts[i].tags.length}</div>
       </div>`;
     }
     console.log("succses");
